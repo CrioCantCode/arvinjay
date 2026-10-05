@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arvin Jay M. Deonoso | IT Professional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">AJD<span>.</span></a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#languages" class="nav-link">Stack</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-greeting"><span class="prompt">$</span> whoami</p>
+                <h1 class="hero-name">Arvin Jay M. Deonoso</h1>
+                <h2 class="hero-title">
+                    <span class="code-keyword">const</span> 
+                    <span class="code-variable">role</span> = 
+                    <span class="code-string">'IT Professional & Web Developer'</span>;
+                </h2>
+                <p class="hero-description">
+                    Information Technology graduate with hands-on experience in web development, 
+                    IT operations, and technical support. Passionate about building database-driven 
+                    applications and solving technical challenges.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i> View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-terminal"></i> Get In Touch
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="mailto:ajaydeonoso@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+639916832895" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="hero-photo-container">
+                    <!-- Rotating gradient ring -->
+                    <div class="photo-ring"></div>
+
+                    <!-- Orbiting tech dots -->
+                    <div class="orbit-dots">
+                        <span class="orbit-dot dot-1"></span>
+                        <span class="orbit-dot dot-2"></span>
+                        <span class="orbit-dot dot-3"></span>
+                        <span class="orbit-dot dot-4"></span>
+                    </div>
+
+                    <!-- The photo itself -->
+                    <div class="photo-frame">
+                        <div class="photo-inner">
+                            <img src="images/profile.jpg" alt="Arvin Jay M. Deonoso" class="hero-photo">
+                        </div>
+                        <div class="photo-shine"></div>
+                    </div>
+
+                    <!-- Floating status badge -->
+                    <div class="photo-status">
+                        <span class="status-dot"></span>
+                        Available for work
+                    </div>
+
+                    <!-- Decorative corner brackets -->
+                    <div class="corner-bracket top-left"></div>
+                    <div class="corner-bracket top-right"></div>
+                    <div class="corner-bracket bottom-left"></div>
+                    <div class="corner-bracket bottom-right"></div>
+                </div>
+
+                <div class="code-window">
+                    <div class="code-header">
+                        <div class="window-dots">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <span class="code-title">developer.php</span>
+                    </div>
+                    <pre class="code-body"><code><span class="code-keyword">&lt;?php</span>
+<span class="code-variable">$developer</span> = [
+    <span class="code-string">'name'</span> =&gt; <span class="code-string">'Arvin Jay'</span>,
+    <span class="code-string">'role'</span> =&gt; <span class="code-string">'IT Professional'</span>,
+    <span class="code-string">'skills'</span> =&gt; [
+        <span class="code-string">'PHP'</span>, <span class="code-string">'MySQL'</span>, <span class="code-string">'Java'</span>,
+        <span class="code-string">'JavaScript'</span>, <span class="code-string">'IT Support'</span>
+    ],
+    <span class="code-string">'passion'</span> =&gt; <span class="code-string">'Building solutions'</span>
+];
+
+<span class="code-keyword">echo</span> <span class="code-string">"Let's build something great!"</span>;
+<span class="code-keyword">?&gt;</span></code></pre>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// About Me</span>
+                <h2 class="section-title">Get to know me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm an Information Technology graduate based in General Trias City, Cavite, with 
+                        hands-on experience in web development, IT operations, and technical support. 
+                        I've worked on database-driven web applications, ERP systems, and POS solutions.
+                    </p>
+                    <p>
+                        My expertise spans hardware troubleshooting, PC deployment and reimaging, 
+                        BIOS configuration, RAM and SSD upgrades, basic network troubleshooting, 
+                        and IP configuration. I'm knowledgeable in PHP, MySQL, Java, JavaScript, 
+                        and modern web technologies.
+                    </p>
+                    <p>
+                        I'm a strong communicator and team player with excellent problem-solving skills 
+                        and a willingness to learn and adapt to new technologies.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>General Trias City, Cavite, 4107</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>ajaydeonoso@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+63 991 683 2895</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>BS Information Technology</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-code"></i>
+                        <h3>6+</h3>
+                        <p>Languages</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-project-diagram"></i>
+                        <h3>3+</h3>
+                        <p>Projects</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>4</h3>
+                        <p>Months Internship</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-certificate"></i>
+                        <h3>BSIT</h3>
+                        <p>Degree Holder</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Skills</span>
+                <h2 class="section-title">Technical Expertise</h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-headset"></i></div>
+                    <h3>IT Support</h3>
+                    <ul>
+                        <li>Hardware & Software Troubleshooting</li>
+                        <li>Desktop Support</li>
+                        <li>PC Deployment</li>
+                        <li>PC Reimaging</li>
+                        <li>BIOS Configuration</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-microchip"></i></div>
+                    <h3>Hardware</h3>
+                    <ul>
+                        <li>RAM Installation/Replacement</li>
+                        <li>SSD Installation/Replacement</li>
+                        <li>PC Troubleshooting</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                    <h3>Networking</h3>
+                    <ul>
+                        <li>LAN Configuration</li>
+                        <li>IP Configuration</li>
+                        <li>Basic Network Troubleshooting</li>
+                        <li>Connectivity Troubleshooting</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Systems & Tools</h3>
+                    <ul>
+                        <li>XAMPP, phpMyAdmin</li>
+                        <li>Git/GitHub</li>
+                        <li>VS Code</li>
+                        <li>Microsoft Office</li>
+                        <li>Windows, ERP Systems</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Java, C++, Python</li>
+                        <li>Native PHP</li>
+                        <li>HTML, CSS, JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Databases</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>phpMyAdmin</li>
+                        <li>Database Management</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages & Technologies -->
+    <section class="languages" id="languages">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Languages & Tools</span>
+                <h2 class="section-title">Tech Stack</h2>
+                <p class="section-subtitle">
+                    The languages, frameworks, and tools I use to build things.
+                </p>
+            </div>
+
+            <div class="languages-grid">
+                <!-- Programming Languages -->
+                <div class="lang-category">
+                    <h3 class="lang-category-title">
+                        <span class="lang-prompt">&gt;</span> Programming Languages
+                    </h3>
+                    <div class="lang-icons">
+                        <div class="lang-item">
+                            <i class="devicon-php-plain colored"></i>
+                            <span>PHP</span>
+                        </div>
+                        <div class="lang-item">
+                            <i class="devicon-javascript-plain colored"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="lang-item">
+                            <i class="devicon-java-plain colored"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="lang-item">
+                            <i class="devicon-python-plain colored"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="lang-item">
+                            <i class="devicon-cplusplus-plain colored"></i>
+                            <span>C++</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Frontend -->
+                <div class="lang-category">
+                    <h3 class="lang-category-title">
+                        <span class="lang-prompt">&gt;</span> Frontend
+                    </h3>
+                    <div class="lang-icons">
+                        <div class="lang-item">
+                            <i class="devicon-html5-plain colored"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="lang-item">
+                            <i class="devicon-css3-plain colored"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="lang-item">
+                            <i class="devicon-bootstrap-plain colored"></i>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="lang-category">
+                    <h3 class="lang-category-title">
+                        <span class="lang-prompt">&gt;</span> Databases
+                    </h3>
+                    <div class="lang-icons">
+                        <div class="lang-item">
+                            <i class="devicon-mysql-plain colored"></i>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="lang-category">
+                    <h3 class="lang-category-title">
+                        <span class="lang-prompt">&gt;</span> Tools & Platforms
+                    </h3>
+                    <div class="lang-icons">
+                        <div class="lang-item">
+                            <i class="devicon-git-plain colored"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="lang-item">
+                            <i class="devicon-github-original"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="lang-item">
+                            <i class="devicon-vscode-plain colored"></i>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="lang-item">
+                            <i class="devicon-apache-plain colored"></i>
+                            <span>XAMPP</span>
+                        </div>
+                        <div class="lang-item">
+                            <i class="devicon-windows8-original colored"></i>
+                            <span>Windows</span>
+                        </div>
+                        <div class="lang-item">
+                            <i class="devicon-linux-plain colored"></i>
+                            <span>Linux</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Experience</span>
+                <h2 class="section-title">Where I've Worked</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">January 2026 – April 2026</span>
+                        <h3>IT Intern</h3>
+                        <h4>A3Tech IT Solutions</h4>
+                        <ul>
+                            <li>Assisted in the development and maintenance of web-based systems using PHP, MySQL, HTML, CSS, JavaScript, and Bootstrap.</li>
+                            <li>Participated in the development of an ERP system, including database management, inventory-related processes, and system functionality.</li>
+                            <li>Performed database checking, debugging, and system testing to identify and resolve technical issues.</li>
+                            <li>Assisted in developing and improving user interfaces and system features based on project requirements.</li>
+                            <li>Worked with team members in planning, developing, testing, and presenting software projects.</li>
+                            <li>Assisted with data input and management, ensuring accuracy and completeness of information.</li>
+                            <li>Collaborated with developers and other team members to troubleshoot issues and improve system performance.</li>
+                            <li>Gained hands-on experience in IT support, software development, database management, troubleshooting, and system documentation.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-header education-header">
+                <span class="section-tag">// Education</span>
+                <h2 class="section-title">Academic Background</h2>
+            </div>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="edu-icon"><i class="fas fa-university"></i></div>
+                    <span class="edu-year">2022 – 2026</span>
+                    <h3>Bachelor of Science in Information Technology</h3>
+                    <p>National College of Science and Technology</p>
+                </div>
+                <div class="education-card">
+                    <div class="edu-icon"><i class="fas fa-school"></i></div>
+                    <span class="edu-year">2016 – 2022</span>
+                    <h3>Junior – Senior High School</h3>
+                    <p>Claremont School of General Trias Cavite</p>
+                </div>
+                <div class="education-card">
+                    <div class="edu-icon"><i class="fas fa-book"></i></div>
+                    <span class="edu-year">2011 – 2016</span>
+                    <h3>Elementary</h3>
+                    <p>Dona Matilde Memorial Elementary School</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Portfolio</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-badge">Capstone Project</span>
+                        <h3>Cafe Amadeo Cooperative ERP System</h3>
+                        <p>
+                            A web-based Enterprise Resource Planning (ERP) system for Cafe Amadeo Development 
+                            Cooperative to streamline and manage business operations.
+                        </p>
+                        <ul class="project-features">
+                            <li>Inventory management module</li>
+                            <li>Sales/POS system</li>
+                            <li>Finance & HR modules</li>
+                            <li>Member management</li>
+                            <li>Database-driven records and reporting</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Native PHP</span>
+                            <span>MySQL</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cash-register"></i>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-badge">Project</span>
+                        <h3>POS System with Inventory & Mobile App</h3>
+                        <p>
+                            A Point-of-Sale system integrated with inventory management, plus a Java-based 
+                            mobile application connected to the PHP backend.
+                        </p>
+                        <ul class="project-features">
+                            <li>Product & stock monitoring</li>
+                            <li>Sales & transaction tracking</li>
+                            <li>Java mobile app integration</li>
+                            <li>Ngrok for local server communication</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Native PHP</span>
+                            <span>Java</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>Bootstrap</span>
+                            <span>Ngrok</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-badge">Project</span>
+                        <h3>POS Desktop Application</h3>
+                        <p>
+                            A desktop-based Point-of-Sale application using Java for managing sales 
+                            transactions and product information.
+                        </p>
+                        <ul class="project-features">
+                            <li>Sales transaction management</li>
+                            <li>Product information management</li>
+                            <li>Database integration for records</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">// Contact</span>
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">
+                    I'm open to opportunities in web development, IT support, and related fields. 
+                    Feel free to reach out!
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <a href="mailto:ajaydeonoso@gmail.com" class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>ajaydeonoso@gmail.com</p>
+                        </div>
+                    </a>
+                    <a href="tel:+639916832895" class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+63 991 683 2895</p>
+                        </div>
+                    </a>
+                    <div class="contact-card">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>General Trias City, Cavite, 4107</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <a href="#home" class="footer-logo">AJD<span>.</span></a>
+                <p>&copy; 2026 Arvin Jay M. Deonoso. All rights reserved.</p>
+                <div class="footer-socials">
+                    <a href="mailto:ajaydeonoso@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+639916832895" aria-label="Phone"><i class="fas fa-phone"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
